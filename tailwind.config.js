@@ -30,7 +30,7 @@ export default {
         montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(to top right, #5A7BA7 60%, #937DC2)',
+        'custom-gradient': 'linear-gradient(to top right, #0A0E1A, #141B3A, #2D1B55)',
       },
       
           

@@ -72,9 +72,9 @@ export default function NavBar() {
 
   const getHeaderClass = () => {
     return isMobile
-      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-blue-950 bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
+      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-[#251D47] bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
       : isScrolled
-      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-blue-950 bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
+      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-[#251D47] bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
       : "fixed top-0 w-full z-50 transition-all duration-300 md:bg-transparent border-b border-gray-600";
   };
 
