@@ -22,27 +22,25 @@ const NavLinks = () => {
 
   return (
     <>
-      <ScrollLink
-        to="Profile"
-        smooth={true}
-        duration={500}
-        className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-xl 2xl:text-2xl"
+      <button
+        className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-2xl"
+        onClick={() => handleScrollNav("Profile")}
       >
         Home
-      </ScrollLink>
+      </button>
 
-      <button onClick={() => handleScrollNav("About")} className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-xl 2xl:text-2xl ">
+      <button onClick={() => handleScrollNav("About")} className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-2xl ">
         About Me
       </button>
 
       <Link
         to="/portofolio"
-        className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-xl 2xl:text-2xl"
+        className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-2xl"
       >
         Portofolio
       </Link>
 
-      <button onClick={() => handleScrollNav("Service")} className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-xl 2xl:text-2xl">
+      <button onClick={() => handleScrollNav("Service")} className="cursor-pointer hover:text-gray-300 md:text-2xl mdp:text-3xl lg:text-2xl">
         Service
       </button>
     </>
@@ -72,9 +70,9 @@ export default function NavBar() {
 
   const getHeaderClass = () => {
     return isMobile
-      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-[#251D47] bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
+      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-[#121826] bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
       : isScrolled
-      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-[#251D47] bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
+      ? "fixed top-0 w-full z-50 transition-all duration-300 bg-[#121826] bg-opacity-80 backdrop-blur-md shadow-lg border-b border-gray-600"
       : "fixed top-0 w-full z-50 transition-all duration-300 md:bg-transparent border-b border-gray-600";
   };
 

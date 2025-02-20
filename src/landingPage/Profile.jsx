@@ -1,20 +1,21 @@
 import profil from '../assets/new_profile.png';
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import {FaLinkedin, FaInstagram } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
 export default function Profile() {
   return (
     <motion.div
+      id='Profile'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.5 }}
       className="
-        flex flex-col-reverse space-y-5 justify-center items-center lg:justify-center lg:items-center w-screen max-h-screen mt-20 pb-6 lg:flex-row md:justify-evenly lg:min-h-screen lg:mt-0 lg:pb-5 lg:space-x-[9vw] lg:px-8 xl:space-x-[5vw] 2xl:space-x-[12vw] 2xl:mx-0 md:pt-14 md:pb-8 shadow-lg   
+        flex flex-col space-y-5 justify-center items-center lg:justify-center lg:items-center w-screen max-h-screen mt-20 pb-6 lg:flex-row md:justify-evenly lg:min-h-screen lg:mt-0 lg:pb-5 lg:space-x-[9vw] lg:px-8 xl:space-x-[5vw] 2xl:space-x-[12vw] 2xl:mx-0 md:pt-14 md:pb-8 shadow-lg   
       "
     >
       
       <div className="
-        flex justify-center items-center animate-bounceCustom 
+        flex justify-center items-center
         pb-2 pt-0 sm:mt-[0px] md:mb-0 mdp:mt-0
         max-w-mbl sm:max-w-lg mdp:max-w-xl lg:max-w-xl xl:max-w-2xl lg:pb-20 
       ">
@@ -32,7 +33,7 @@ export default function Profile() {
       {/* Text Section */}
       <div className="
         flex flex-col justify-center text-white font-extrabold text-center lg:text-left 
-        xl:me-20 lg:mt-36 xl:ms-8 2xl:mt-28
+        xl:me-20 lg:mt-36 xl:ms-8 xl:pt-24 2xl:mt-28
       ">
         <p className="text-sstitle pb-0 mbm:pb-1 mbm:text-2xl mbl:text-2xl sm:text-3xl md:text-4xl mdp:text-4xl lg:text-4xl 2xl:text-5xl md:pb-1">
           Hello, I&apos;am
@@ -45,7 +46,7 @@ export default function Profile() {
         </p>
         <p className='
           max-w-3xl font-medium mt-2 lg mbl:mt-6 px-4 lg:px-0 lg:leading-7 
-          text-base mbl:text-base sm:text-xl md:text-xl mdp:text-2xl lg:text-lg xl:text-xl 2xl:text-xl pt-0
+          text-base mbl:text-base sm:text-xl md:text-xl mdp:text-2xl lg:text-lg xl:text-xl 2xl:text-xl pt-0 xl:mt-3
         '>
           <span>
           I am a Software Engineer skilled in full-stack development, a Product Manager experienced in agile workflows, and a Tech Enthusiast passionate about innovative solutions. I build scalable software and optimize product development for impactful digital experiences.
@@ -57,10 +58,10 @@ export default function Profile() {
           flex flex-row justify-center lg:justify-start space-x-10 mt-4 mbl:mt-8 mb-1
         '>
           <a target="_blank" href="https://www.linkedin.com/in/rafian-ramadhani/">
-            <FaLinkedin className='text-[38px] mbl:text-[44px] mdp:text-[55px]'/>
+            <FaLinkedin className='text-[38px] mbl:text-[44px] mdp:text-[55px] xl:text-[45px] 2xl:text-[55px]'/>
           </a>
           <a target="_blank" href="https://www.instagram.com/rafianrr/">
-            <FaInstagram className='text-[38px] mbl:text-[44px] mdp:text-[55px]'/>
+            <FaInstagram className='text-[38px] mbl:text-[44px] mdp:text-[55px] xl:text-[45px] 2xl:text-[55px]'/>
           </a>
         </div>
         {/* Download CV Button */}

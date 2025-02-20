@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Katalogku",
+        "subtitle": "Katalog For E Commerce Low Version",
+        "description": "My Catalog is a catalog platform in the form of E-Commerce to make it easier for sellers to display the products they will sell, with a responsive display like a mobile E-Commerce application, this application can be used to order orders with Checkout via WA.",
+        "tech": ["Python", "Flask"],
+        "image": ["katalogku1.png", "katalogku2.png"],
+        "link": ""
+    },
+    {
+        "title": "Power Meter",
+        "subtitle": "Power Meter Dashboard Monitoring   ",
+        "description": "Power Meter Monitoring Application is a software designed to monitor, analyze, and manage the use of electrical energy in real-time through measurements made by the Power Meter device. This application allows users to view energy consumption data accurately, both in the form of graphs and reports, making it easier to identify electricity usage patterns and early detection of anomalies or excessive use.",
+        "tech": ["PHP Laravel"],
+        "image": ["powermeter1.png", "powermeter2.png", "powermeter3.png"],
+        "link": ""
+    },
+    {
+        "title": "Startup Incubation Dashboard",
+        "subtitle": "Dashboard For Startup Incubation",
+        "description": "The startup incubation dashboard application is an innovative platform that facilitates the management and monitoring of startup development. With an intuitive interface, the application offers analytical and reporting features to monitor performance and manage resources. In addition, the application supports collaboration between mentors and startups, creating an ecosystem conducive to innovation. Thus, this application becomes an essential tool for entrepreneurs in optimizing strategies and achieving business goals.",
+        "tech": ["PHP Laravel"],
+        "image": ["startupincubation.jpg"],
+        "link": "https://iib.btpdev.my.id/login"
+    },
+    {
+        "title": "Simpenan Laura",
+        "subtitle": "Simpenan Laura E-Commerce Application",
+        "description": "The Simpenan Laura catalog application is a digital solution designed to simplify transactions and manage products efficiently. With a user-friendly interface, this application allows users to browse, order.",
+        "tech": ["PHP Laravel"],
+        "image": ["simpenanlaura.png"],
+        "link": "https://mytaskapp.com"
+    },
+    {
+        "title": "Eazy Human Resource Application",
+        "subtitle": "Human Resource Management Application",
+        "description": "The Eazy Human Resource application is one part of the eazy application that functions to manage employees within a university, both lecturers and education staff. Eazy HR has many modules such as Profiles for lecturers and education staff, then JAFA for submitting and monitoring functional positions of lecturers, then there are attendance, leave applications, payroll, recruitment.",
+        "tech": ["PHP Laravel"],
+        "image": ["eazyhr1.png", "eazyhr2.png"],
+        "link": "https://eazy-campus.com/"
+    },
+    {
+        "title": "Eazy Accreditation Application",
+        "subtitle": "Higher Education Accreditation Application",
+        "description": "The Higher Education Accreditation Application is a platform designed to simplify the accreditation simulation process efficiently and in a structured manner. With intuitive features, this application allows educational institutions to manage documents, collect data, and conduct evaluations in real time. In addition, this application provides guidance and resources needed to meet accreditation standards. Thus, this application becomes an important tool in improving the quality of higher education and facilitating the accreditation process.",
+        "tech": ["PHP Laravel"],
+        "image": ["eazyacreditation.png"],
+        "link": "https://eazy-campus.com/"
+    },
+    {
+        "title": "Go Home",
+        "subtitle": "Go Home for Your Home Services",
+        "description": "Go Home application is an innovative platform that provides rental services and home construction through web and mobile applications. With an intuitive interface, users can easily search, compare, and book various construction and renovation services. This application also offers review and rating features to ensure optimal service quality. Thus, Go Home becomes a practical solution for individuals who want to build or renovate their homes efficiently.",
+        "tech": ["Next.js"],
+        "image": ["gohome1.jpg"],
+        "link": ""
+    },
+    {
+        "title": "Makerspace",
+        "subtitle": "Makerspace Booking Services Application",
+        "description": "Makerspace application is a platform designed to make it easier for users to book 3D printing services and other creative services through the web and mobile applications. With a user-friendly interface, this application allows users to explore various services, book, and schedule easily. In addition, this application provides complete information on service specifications and prices. Thus, Makerspace is an ideal solution for creators who want to realize their innovative ideas efficiently.",
+        "tech": ["PHP Laravel"],
+        "image": ["makerspace.png"],
+        "link": "https://makerspace.telkomuniversity.ac.id/"
+    }
+  ]
+  
